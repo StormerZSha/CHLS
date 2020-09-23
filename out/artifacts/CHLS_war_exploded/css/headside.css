@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    /*字体图标的引用*/
+    font-family: 'icomoon';
+    src: url('../img/fonts/icomoon.eot?zgs30b');
+    src: url('../img/fonts/icomoon.eot?zgs30b#iefix') format('embedded-opentype'),
+    url('../img/fonts/icomoon.ttf?zgs30b') format('truetype'),
+    url('../img/fonts/icomoon.woff?zgs30b') format('woff'),
+    url('../img/fonts/icomoon.svg?zgs30b#icomoon') format('svg');
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+.banner{
+    height: 60px;
+    background-image: url("../img/head.jpg");
+    position: relative;
+}
+.banner h2{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: -10px 4px 5px rgba(0,0,0 ,1);
+}
+.banner span{
+    position: absolute;
+    top: 5px;
+    right: 300px;
+    color: #fff;
+}
+#out{
+    right: -40px;
+    top: 0;
+}
+#out input{
+    border: 0;
+    outline: none;
+    background-color: rgba(255,255,255,0);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.side{
+    width: 150px;
+    height: 100%;
+    /*border: 1px solid #adccea;*/
+    background-color: #fff;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bigslide{
+    width: 150px;
+    height: 26px;
+    padding-left: 30px;
+    color: #fff;
+    background-image: url("../img/menu.jpg");
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.bigslide:hover{
+    background-image: url("../img/menuactive.jpg");
+}
+#backmain a,#adminmanner a,#stumanner a,#bookmanner a,#borrowmanner a,#lostmanner a{
+    color: #fff;
+}
+#adminmanner a::after,#stumanner a::after,#bookmanner a::after,#borrowmanner a::after,#lostmanner a::after{
+    font-family: "icomoon";
+    content: "\ea52";
+    font-size: 21px;
+    vertical-align: -3px;
+}
+.space{
+    width: 8px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #ccc;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: left;
+
+}

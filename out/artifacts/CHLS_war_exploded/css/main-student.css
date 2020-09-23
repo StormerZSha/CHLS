@@ -1,0 +1,44 @@
+body{
+    width: 100%;
+}
+.main{
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.mymessage,.searchorder,.lost{
+    width: 1000px;
+    height: 150px;
+    background-color: #fff;
+    border:1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.mymessage{
+    height: 130px;
+}
+.lost{
+    height: 110px;
+}
+.main h2{
+    height: 40px;
+    line-height: 40px;
+    color: #444;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #ccc;
+    background-image: linear-gradient(to bottom,#ddd,#eee,#ddd);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #333;
+    padding-left: 30px;
+}
+.main .detail{
+    padding-left: 60px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.main li{
+    list-style: initial;
+}

@@ -1,0 +1,17 @@
+img{
+    width: 70px;
+    height: 100px;
+}
+.searchdetail {
+    width: 1085px;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.warn{
+    display: inline-block;
+    position: absolute;
+    font-size: 14px;
+    top: 80px;
+    right: 170px;
+    color: #ff0000;
+}

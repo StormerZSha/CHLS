@@ -1,0 +1,69 @@
+.main{
+    width: 88%;
+    height: 100%;
+    position: absolute;
+    top:65px;
+    left: 175px;
+
+}
+.mainbg{
+    width: 100%;
+    height: 100%;
+    background: url("../img/itembg.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-size: 100%;
+}
+.mainshadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.updatelist{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    margin-left: 160px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 5px 5px 5px #000;
+}
+.updatelist span{
+    margin-left: 50px;
+}
+.updatelist input{
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.back{
+    position: absolute;
+    top: 50px;
+    right: 425px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.8);
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    writing-mode: vertical-lr;
+}
+#waitmessage{
+    font-size: 14px;
+    margin-left: -30px;
+}
+#updatebtn{
+    margin-top: 55px;
+    margin-left: 170px;
+    width: 90px;
+    height: 45px;
+}

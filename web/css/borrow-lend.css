@@ -1,0 +1,13 @@
+table #order{
+    color: blue;
+    border: 1px solid blue;
+}
+table #lend,table #back{
+    color: green;
+    border: 1px solid green;
+}
+.searchdetail{
+    width: 1090px;
+    margin-left: 85px;
+    margin-top: 30px;
+}

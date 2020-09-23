@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+}
+.main{
+    width: 78%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50px;
+    border:1px solid #777;
+}
+.searchbanner{
+    width: 90%;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom,#bbb,#aaa,#bbb);
+    border-radius: 6px;
+    background-color: #ccc;
+}
+.searchbanner span{
+    margin-left: 185px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.searchbanner input{
+    height: 50px;
+    width: 450px;
+    padding-left: 10px;
+    outline: none;
+    border: 0;
+    margin-top: 7px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.searchbanner #searchbtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    padding-left: 0;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #0F6CB1;
+    color: #fff;
+    vertical-align: middle;
+}
+.detail{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #eee;
+    margin-top: 30px;
+    display: block;
+}
+.booklist{
+    height: 250px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+    position: relative;
+}
+.bookpic{
+    width: 200px;
+    height: 230px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bookpic img{
+    width: 200px;
+    height: 230px;
+}
+.bookmessage{
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.bookmessage h2{
+    height: 40px;
+    font-size: 26px;
+}
+.partmessage{
+    height: 180px;
+}
+.partmessage div{
+    font-size: 18px;
+    line-height: 32px;
+    color: #a2a2a2;
+}
+.partmessage a{
+    color: #4585ee;
+    font-size: 18px;
+}
+.carrier,.isbn,.clcn{
+    display: none;
+}
+.bookborrow{
+    width: 50px;
+    height: 100px;
+    border: 1px solid #aaa;
+    box-shadow: -5px 1px 1px #000;
+    margin-top: 75px;
+    line-height: 50px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    cursor: pointer;
+    float: right;
+}
+.borrowmessage{
+    width: 555px;
+    height: 200px;
+    background-color: #ddd;
+    box-shadow: -4px 1px 8px #666;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    display: none;
+}
+table,th,tr,td{
+    border: 1px solid #000;
+    font-size: 18px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left: 52px;
+}
+#order{
+    color: #00f
+}

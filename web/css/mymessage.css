@@ -1,0 +1,161 @@
+@font-face {
+    /*字体图标的引用*/
+    font-family: 'icomoon';
+    src: url('../img/fonts/icomoon.eot?zgs30b');
+    src: url('../img/fonts/icomoon.eot?zgs30b#iefix') format('embedded-opentype'),
+    url('../img/fonts/icomoon.ttf?zgs30b') format('truetype'),
+    url('../img/fonts/icomoon.woff?zgs30b') format('woff'),
+    url('../img/fonts/icomoon.svg?zgs30b#icomoon') format('svg');
+}
+body{
+    width: 100%;
+}
+.main{
+    width: 78%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50px;
+    border:1px solid #777;
+}
+.selectbanner{
+    width: 99%;
+    height: 50px;
+    margin-left: 7px;
+    background-image: linear-gradient(to bottom,#bbb,#aaa,#bbb);
+    border-radius: 6px;
+    background-color: #ccc;
+}
+.selectbanner li{
+    float: left;
+    background-image: linear-gradient(to bottom,#ddd,#eee,#ddd);
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.selectbanner li:first-child{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+.detail{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    background-color: #eee;
+    margin-top: 30px;
+    display: block;
+}
+table,th,tr,td{
+    border: 1px solid #000;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+th{
+    background-color: #d9dfbd;
+}
+.success{
+    position: relative;
+    margin-left: 375px;
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #aaa;
+    display: none;
+}
+.success h2{
+    margin-top: 25px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.success i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-style:normal;
+    cursor: pointer;
+}
+.success i::after{
+    content: "\ea0f";
+    font-family: "icomoon";
+}
+.modifypass{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    background-color: #ccc;
+    margin-top: 30px;
+    padding-top: 15px;
+    display: none;
+}
+.modifypass h2{
+    color: #6c4744;
+    margin-left: 470px;
+    margin-bottom: 30px;
+}
+.modifypass form{
+    width: 500px;
+    height: 400px;
+    margin-left: 275px;
+    border: 1px solid #aaa;
+    position: relative;
+}
+.old,.new,.double,.cod,#oldpass,#newpass,#doublepass,#code,#codeImage{
+    position: absolute;
+}
+#oldpass,#newpass,#doublepass,#code{
+    height: 40px;
+    width: 300px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.old,#oldpass{
+    top: 25px;
+    left: 125px;
+}
+.new,#newpass{
+    top: 100px;
+    left: 125px;
+}
+.double,#doublepass{
+    top: 175px;
+    left: 125px;
+}
+.cod,#code{
+    top: 250px;
+}
+#code{
+    width: 150px;
+    left: 125px;
+}
+#codeImage{
+    width: 130px;
+    height: 36px;
+    top: 250px;
+    left: 295px;
+}
+.old,.new,.double,.cod{
+    left: 45px;
+    line-height: 40px;
+}
+#modifybtn{
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 325px;
+    left: 180px;
+    border: 1px solid #7DC4DB;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

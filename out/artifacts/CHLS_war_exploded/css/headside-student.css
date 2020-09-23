@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+@font-face {
+    /*字体图标的引用*/
+    font-family: 'icomoon';
+    src: url('../img/fonts/icomoon.eot?zgs30b');
+    src: url('../img/fonts/icomoon.eot?zgs30b#iefix') format('embedded-opentype'),
+    url('../img/fonts/icomoon.ttf?zgs30b') format('truetype'),
+    url('../img/fonts/icomoon.woff?zgs30b') format('woff'),
+    url('../img/fonts/icomoon.svg?zgs30b#icomoon') format('svg');
+}
+.banner{
+    height: 180px;
+    background: url("../img/header-student.jpg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.space{
+    width: 100%;
+    height: 25px;
+    background-color: #d9dfbd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.space span{
+    position: absolute;
+    top: 3px;
+    right: 300px;
+    color: #fff;
+    background-color: #acab9a;
+}
+#out{
+    right: -40px;
+    top: 1px;
+}
+#out input{
+    border: 0;
+    outline: none;
+    background-color: #acab9a;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.side{
+    width: 10%;
+    background-color: #fff;
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.bigslide{
+    width: 150px;
+    height: 42px;
+    padding-left: 20px;
+    border: 2px solid #ddd;
+    border-style: solid solid none ;
+    line-height: 42px;
+    vertical-align: middle;
+}
+.bigslide a{
+    color: #11727c;
+}
+.bigslide:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bigslide:last-child{
+    border-bottom: 2px solid #ddd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.bigslide a::after{
+    content: "\ea52";
+    font-family: "icomoon";
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ccc;
+}
